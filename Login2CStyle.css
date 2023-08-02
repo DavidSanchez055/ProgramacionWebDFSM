@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;500;700;800&family=Lugrasimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;500;700;800&family=Lugrasimo&family=Montserrat:wght@200;300;400;600;700&display=swap');
+
+*{
+    margin: auto;
+    box-sizing: border-box;
+    padding: auto;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./assets/valleCocora.jpg);
+}
