@@ -68,7 +68,7 @@ font-family: 'Montserrat', sans-serif;*/
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 .input_password{
     display: flex;
@@ -92,5 +92,8 @@ font-family: 'Montserrat', sans-serif;*/
 .inputs{
     width: 100px;
     height: 30px;
-    
+    margin-left: 15px;
+    border: none;
+    border-radius: 10px;
+    padding-inline: 5px;
 }
