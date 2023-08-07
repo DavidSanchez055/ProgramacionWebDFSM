@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+/*font-family: 'Poppins', sans-serif;*/
+
+*{
+    margin: auto;
+    box-sizing: border-box;
+    padding: auto;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+}
+.card_main{
+    height: 90vh;
+    width: 70vw;
+    background: rgb(255,255,255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3%;
+}
+
+.card_form{
+    width: 45%;
+    height: 100%;
+    background: rgb(255,255,255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 3%;
+    border-bottom-left-radius: 3%;
+    background-color: white;
+}
+.card_form h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    color:rgb(13, 51, 2);
+}
+.card_form img{
+    width: 30%;
+    height: 10%;
+}
+
+.input_user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.input_password{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputs{
+    width: 30;
+    height: 30px;
+    margin-left: 15px;
+    border: rgb(13, 51, 2);
+    border: 3px;
+    border-bottom-style: groove;
+    padding-inline: 5px;
+    background: rgb(255, 255, 255);
+}
+
+.photo{
+    background-color: blue;
+    width: 55%;
+    height: 100%;
+    border-top-right-radius: 3%;
+    border-bottom-right-radius: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photo img{
+    height: 80%;
+    width: 70%;
+}
